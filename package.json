@@ -1,0 +1,22 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "Updated Pluralsight course, Building Web Apps with Nodejs and Express.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt-lindsay/pluralsight-building-web-apps.git"
+  },
+  "author": "matt lindsay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matt-lindsay/pluralsight-building-web-apps/issues"
+  },
+  "homepage": "https://github.com/matt-lindsay/pluralsight-building-web-apps#readme",
+  "dependencies": {
+    "express": "4.16.3"
+  }
+}
