@@ -15,3 +15,14 @@ Chalk sets colour on console messages.
 debug for monitoring app in console e.g. />DEBUG=* node app.js
 
 morgan for monitoring whilst app is running. Options include 'combined' and 'tiny'.
+
+### CDN
+
+- Great to get up and running fast. Not great if you need to work offline.
+
+### Public Directory
+
+Manually copying CSS and JS files to public directory is painful.
+
+### Serving Static Files - Node Modules
+
