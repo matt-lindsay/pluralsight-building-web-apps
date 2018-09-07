@@ -12,6 +12,6 @@ $HOME/.npmrc set up to save exact versions of npm packages.
 Chalk sets colour on console messages.
 ` = template strings ES6 feature.
 
-debug for monitoring app in console.
+debug for monitoring app in console e.g. />DEBUG=* node app.js
 
 morgan for monitoring whilst app is running. Options include 'combined' and 'tiny'.
