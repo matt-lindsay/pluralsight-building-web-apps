@@ -16,14 +16,33 @@ Updated Pluralsight course, Building Web Apps with Nodejs and Express.
 
 - morgan for monitoring whilst app is running. Options include 'combined' and 'tiny'.
 
-### CDN
+#### CDN
 
 - Great to get up and running fast. Not great if you need to work offline.
 
-### Public Directory
+#### Public Directory
 
 - Manually copying CSS and JS files to public directory is painful.
 
-### Serving Static Files - Node Modules
+#### Serving Static Files - Node Modules
 
 - Use express.static() to serve files from node_modules to public/css ...js.
+
+### Setting Up Tooling
+
+### Intro
+
+- NPM start
+- ESLint
+- ES6 and beyond
+- Nodemon
+- Environmental variables
+
+### NPM Scripts and ESLint
+
+- Set NPM Start script to run DEBUG=...
+- ESLint defacto standard for linting JavaScript
+- Install globally to use from the command line.
+- />eslint --init
+- Use a popular style guide -> AirBnB (review https://github.com/airbnb/javascript)
+- 
