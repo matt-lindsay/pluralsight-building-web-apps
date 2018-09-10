@@ -73,4 +73,6 @@ Updated Pluralsight course, Building Web Apps with Nodejs and Express.
 
 ## Emplating Engines
 
-### 
+### Pug and JavaScript
+
+- 
