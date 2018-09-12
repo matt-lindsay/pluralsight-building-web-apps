@@ -83,15 +83,31 @@ Updated Pluralsight course, Building Web Apps with Nodejs and Express.
   }
   ```
 
-###Templating Engines
+### Templating Engines
 
-### Pug and JavaScript
+#### Pug and JavaScript
 
 - Pug used to called Jade. Very clean and unpoinoinated.
 - EJS is more like HTML and follows same principles as Angular andRact.
+  - EJS syntax: `<%=title%>` prints a variable that has been passed in.
+  - `<% for(...) {%>` runs some JavaScript.
+  - More info on EJS [syntax](http://www.ejs.co/#docs) can be found here.
 
-## Routing
+### Routing
 
-### Navigation
+#### Navigation
+
+- Added the following to `.eslintrc.js` to remove red squigglies on config JSON in JavaScript files.
+  - 0 is ignore, 1 is warning (green), 2 is error (red).
+
+```
+"rules": {
+        "comma-dangle": 0
+    }
+```
+
+- Make sure to copy a downloaded theme's CSS and JavaScript files into the app's public directory. I wasted a lot of time here with menus not displaying.
+
+#### Routing
 
 - 
