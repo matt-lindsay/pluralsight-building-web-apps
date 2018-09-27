@@ -29,6 +29,8 @@ Updated Pluralsight course, Building Web Apps with Nodejs and Express.
 
 ### Setting Up Tooling
 
+- VS Code set indentation to tabs with two spaces.
+
 #### Intro
 
 - NPM start
@@ -110,4 +112,4 @@ Updated Pluralsight course, Building Web Apps with Nodejs and Express.
 
 #### Routing
 
-- 
+- Single book route - on sub route of single book, use `const id = req.params.id;` to identify the id of the book selected from the top level view of `books`. Changing to object destructuring syntax (ES6) e.g. `const { id } = req.params.id;` does the same thing.
