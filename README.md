@@ -114,3 +114,14 @@ Updated Pluralsight course, Building Web Apps with Nodejs and Express.
 
 - Single book route - on sub route of single book, use `const id = req.params.id;` to identify the id of the book selected from the top level view of `books`. Changing to object destructuring syntax (ES6) e.g. `const { id } = req.params;` does the same thing.
 - Remember to add a `/` front end dependecies if they are sub pages so that it finds CSS and JS files.
+
+### Databases
+
+#### Creating a database
+
+- MS SQL Server created on Azure for this example (I am not completing this example as I do it already through work). If I was carrying this example out I would use the MS SQL Server Docker container to run it locally, negating the requirement to create an Azure account restricted to 30 days.
+
+#### Connecting to a database
+
+- `mssql` npm package used to connect to SQL Server.
+- Modify `package.json` to include `:*` in start script e.g. `DEBUG=app:* nodemon app.js`
