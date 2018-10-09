@@ -129,7 +129,11 @@ Updated Pluralsight course, Building Web Apps with Nodejs and Express.
 #### Async
 
 - Async negates the requirement to use Promises. I haven't fully implemented the SQL Server example, but Async is used in bookRoutes.js
+- ((){}()) format of the `async` signature, or 'Iffy'.
 
 #### Middleware
 
-- 
+- Morgan is an example of middleware. Passport is also middleware.
+- Middleware is a function executed on everything coming into the app.
+- The `Next()` keyword is used to move onto the next middleware.
+- Also looked at array destructuring on `bookRoutes.js` and inserted middleware into the router.
