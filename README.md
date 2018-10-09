@@ -137,3 +137,13 @@ Updated Pluralsight course, Building Web Apps with Nodejs and Express.
 - Middleware is a function executed on everything coming into the app.
 - The `Next()` keyword is used to move onto the next middleware.
 - Also looked at array destructuring on `bookRoutes.js` and inserted middleware into the router.
+
+#### MongoDB
+
+- Unstructured non relational database.
+- MongoDB can be installed anywhere.
+- [Download MongoDB Community Server](https://www.mongodb.com/download-center?initial=true#community)
+- Check the install instructions [here](https://docs.mongodb.com/manual/administration/install-on-linux/)
+- To start mongod on linux `sudo service mongod start`
+- Verify that the mongod process has started successfully by checking the contents of the log file at /var/log/mongodb/mongod.log for a line reading `[initandlisten] waiting for connections on port 27017`
+- 
