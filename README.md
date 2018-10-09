@@ -125,3 +125,11 @@ Updated Pluralsight course, Building Web Apps with Nodejs and Express.
 
 - `mssql` npm package used to connect to SQL Server.
 - Modify `package.json` to include `:*` in start script e.g. `DEBUG=app:* nodemon app.js`
+
+#### Async
+
+- Async negates the requirement to use Promises. I haven't fully implemented the SQL Server example, but Async is used in bookRoutes.js
+
+#### Middleware
+
+- 
