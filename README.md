@@ -149,4 +149,4 @@ Updated Pluralsight course, Building Web Apps with Nodejs and Express.
 
 #### MongoDB Admin Routes
 
-- 
+- Setup an async insert function in `adminRoutes.js`.
