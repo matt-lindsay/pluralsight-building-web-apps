@@ -1,5 +1,5 @@
 const express = require('express');
-const { mongoClient } = require('mongodb');
+const { MongoClient } = require('mongodb');
 const debug = require('debug')('app:adminRoutes');
 
 const adminRouter = express.Router();
@@ -21,12 +21,12 @@ function router(nav) {
   adminRouter.route('/')
     .get((req, res) => {
       const url = 'mongodb://localhost:27017';
-      const dbName = 'librayApp';
+      const dbName = 'libraryApp';
 
       (async function mongo() {
         let client;
         try {
-          client = await mongoClient.connect(url);
+          client = await MongoClient.connect(url);
           debug('Connected correctly to the server.');
 
           const db = client.db(dbName);

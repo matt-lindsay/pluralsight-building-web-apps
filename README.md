@@ -145,8 +145,19 @@ Updated Pluralsight course, Building Web Apps with Nodejs and Express.
 - [Download MongoDB Community Server](https://www.mongodb.com/download-center?initial=true#community)
 - Check the install instructions [here](https://docs.mongodb.com/manual/administration/install-on-linux/)
 - To start mongod on linux `sudo service mongod start`
+- `sudo service mongod stop`
+- `sudo service mongod restart`
+- `mongo --host 127.0.0.1:27017`
+  - `>show dbs` shows databases in the mongo instance.
+  - `>use libraryApp`
+  - `>db.books.find.pretty()` can leave out the 'pretty()' but the response looks gross.
 - Verify that the mongod process has started successfully by checking the contents of the log file at /var/log/mongodb/mongod.log for a line reading `[initandlisten] waiting for connections on port 27017`
+- [Getting started guide](https://docs.mongodb.com/manual/tutorial/getting-started/#getting-started)
 
 #### MongoDB Admin Routes
 
 - Setup an async insert function in `adminRoutes.js`.
+
+#### MongoDB Testing Insert
+
+- Created and seeded the mongo database.
