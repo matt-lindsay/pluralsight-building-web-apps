@@ -169,4 +169,25 @@ Updated Pluralsight course, Building Web Apps with Nodejs and Express.
 
 #### MongoDB Select One
 
+- Using findOne() method from mongo: parse in a JSON object...
+- Also require ObjectId from you mongod 'require' statement...
+- e.g. `const book = await col.findOne({ _id: new ObjectID(id) });`
+
+#### Summary
+
+- Looked at SQL Server.
+- Looked at mongoDB.
+- Next adding users.
+
+### Authentication
+
+#### Introduction
+
+- Going to create users.
+- Authentication - logging in.
+- Authorization - access control.
+- Passport, going to use local strategy, but there are others available for third party identity providers.
+
+#### Sign Up
+
 - 
