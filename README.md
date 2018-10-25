@@ -190,4 +190,5 @@ Updated Pluralsight course, Building Web Apps with Nodejs and Express.
 
 #### Sign Up
 
+- On `index.ejs` signupForm you would usually have type of entry field equal to password e.g. `Password: <input type="password" name="password" id="password"/><br/>` This hasn't been implmented here so you can see what is going on.
 - 
