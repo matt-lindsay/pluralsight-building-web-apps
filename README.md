@@ -147,17 +147,26 @@ Updated Pluralsight course, Building Web Apps with Nodejs and Express.
 - To start mongod on linux `sudo service mongod start`
 - `sudo service mongod stop`
 - `sudo service mongod restart`
+- You can visit mongo at `localhost:27017` in the web browser.
 - `mongo --host 127.0.0.1:27017`
   - `>show dbs` shows databases in the mongo instance.
   - `>use libraryApp`
-  - `>db.books.find.pretty()` can leave out the 'pretty()' but the response looks gross.
+  - `>db.books.find().pretty()` can leave out the 'pretty()' but the response looks gross.
 - Verify that the mongod process has started successfully by checking the contents of the log file at /var/log/mongodb/mongod.log for a line reading `[initandlisten] waiting for connections on port 27017`
 - [Getting started guide](https://docs.mongodb.com/manual/tutorial/getting-started/#getting-started)
 
 #### MongoDB Admin Routes
 
-- Setup an async insert function in `adminRoutes.js`.
+- Setup an async insert function in `adminRoutes.js`. This seeds the mongo database with data. Every time you revisit this route, it inserts more data.
 
 #### MongoDB Testing Insert
 
 - Created and seeded the mongo database.
+
+#### MongoDB Select Many
+
+- Implemented the find method saving the data to an array, and rendering it on the bookListView.
+
+#### MongoDB Select One
+
+- 
