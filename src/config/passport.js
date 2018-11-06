@@ -1,8 +1,9 @@
 const passport = require('passport');
+require('./strategies/local.strategy');
 
 module.exports = function passportConfig(app) {
-  app.user(passport.initialize());
-  app.user(passport.session());
+  app.use(passport.initialize());
+  app.use(passport.session());
 
   // Stores user in session.
   passport.serializeUser((user, done) => {
@@ -13,6 +14,4 @@ module.exports = function passportConfig(app) {
   passport.deserializeUser((user, done) => {
     done(null, user);
   });
-
-  require('./strategies/locol.strategy');
 };

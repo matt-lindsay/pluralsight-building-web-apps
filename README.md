@@ -206,3 +206,13 @@ Updated Pluralsight course, Building Web Apps with Nodejs and Express.
 
 - Three packages added: `passport`, `cookie-parser` and `express-session`.
 - Passport uses strategies can be search in npmjs.com to use other identity providers e.g. Google and Facebook.
+
+#### Local Strategy
+
+- Passport adds things to the request e.g. `login`
+- Added a strategy.
+- Added some routes.
+
+#### Creating a User
+
+- 
