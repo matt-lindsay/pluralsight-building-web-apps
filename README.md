@@ -227,4 +227,20 @@ Updated Pluralsight course, Building Web Apps with Nodejs and Express.
 
 #### Authorizing User
 
+- Protect routes to those that are allowed to visit them.
+- Can use `req.user.admin` and `req.user.roles` as well as `req.user` to protect routes further.
+- Added a `Sign Out` button.
+
+#### Summary
+
+- Passport, create users, authentication, authorization.
+
+### Structure and third party APIs
+
+#### Introduction
+
+- Structure, controllers, services and 3rd party APIs (Good Reads).
+
+#### Controllers
+
 - 
