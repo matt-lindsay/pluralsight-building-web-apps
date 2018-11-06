@@ -215,4 +215,8 @@ Updated Pluralsight course, Building Web Apps with Nodejs and Express.
 
 #### Creating a User
 
+- We have now created a user, check `authRoutes.js` for details.
+
+#### Sign In
+
 - 
