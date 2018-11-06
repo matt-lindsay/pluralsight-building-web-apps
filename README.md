@@ -191,4 +191,18 @@ Updated Pluralsight course, Building Web Apps with Nodejs and Express.
 #### Sign Up
 
 - On `index.ejs` signupForm you would usually have type of entry field equal to password e.g. `Password: <input type="password" name="password" id="password"/><br/>` This hasn't been implmented here so you can see what is going on.
-- 
+ 
+ #### Auth Routes
+
+ - Making use of body-parser.
+ - Add to `app.js` with body-parser towards the top.
+ - Make sure to declare `.json` and `urlencoded` options.
+ - This pulls out a post and adds it to a response body.
+ - body-parser being used as middleware, which calls `next`.
+ - `debug(req.body);` demonstrates the POST body when the signup form is used in the terminal.
+ - `res.json(req.body);` shows the properly formatted JSON in the browser.
+
+#### Passport
+
+- Three packages added: `passport`, `cookie-parser` and `express-session`.
+- Passport uses strategies can be search in npmjs.com to use other identity providers e.g. Google and Facebook.
