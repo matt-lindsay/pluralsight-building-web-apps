@@ -219,4 +219,8 @@ Updated Pluralsight course, Building Web Apps with Nodejs and Express.
 
 #### Sign In
 
+- Added signin form.
+
+#### Validating User
+
 - 
