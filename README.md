@@ -223,4 +223,8 @@ Updated Pluralsight course, Building Web Apps with Nodejs and Express.
 
 #### Validating User
 
+- Populated `local.strategy` so that the logged in user is redirected to `/profile`
+
+#### Authorizing User
+
 - 

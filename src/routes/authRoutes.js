@@ -38,7 +38,7 @@ function router(nav) {
     .get((req, res) => {
       res.render('signin', {
         nav,
-        title: 'signIn'
+        title: 'Sign In'
       });
     })
     .post(passport.authenticate('local', {
