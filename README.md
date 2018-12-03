@@ -243,4 +243,4 @@ Updated Pluralsight course, Building Web Apps with Nodejs and Express.
 
 #### Controllers
 
-- 
+- mongo -> `db.books.remove({})` remove seeded data. Then revisit /admin route to reseed.
